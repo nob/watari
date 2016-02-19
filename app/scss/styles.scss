@@ -3,6 +3,7 @@
 @import "bootstrap";
 //@import "compass";
 
+
 /*
 * Base structure
 */
@@ -26,6 +27,7 @@ body {
   vertical-align: top;
 }
 .cover-container {
+  margin-top: 30px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -41,9 +43,15 @@ body {
 */
 
 .cover {
-  padding: 0 20px;
+  h1 {
+    font-family: 'Kaushan Script', cursive;
+  }
+  .general-logo {
+    width: 280px;
+  }
+  padding: 0 10px;
   .lead {
-    margin-top: 50px;
+    margin-top: 0px;
     p {
       font-size: 15px;
     }
@@ -56,7 +64,9 @@ body {
 }
 .cover .btn-lg {
   padding: 10px 20px;
-  font-weight: bold;
+  margin-bottom: 25px;
+  font-size: 15px;
+  // font-weight: bold;
 }
 
 /*
